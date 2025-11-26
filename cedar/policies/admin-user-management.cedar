@@ -1,5 +1,5 @@
 @id("admin-user-management")
-  @description("Grants administrators full access to view, edit, and delete all user accounts")
+@description("Grants administrators full access to view, edit, and delete all user accounts")
   @tag("admin")
   @author("Cedar Studio")
   permit(
