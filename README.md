@@ -69,11 +69,11 @@ permit(...)
 ### Example
 
 ```cedar
-// @id("user-profile-access")
-// @description("Allows users to access their own profile data")
-// @tag("user-management")
-// @tag("self-service")
-// @author("Security Team")
+@id("user-profile-access")
+@description("Allows users to access their own profile data")
+@tag("user-management")
+@tag("self-service")
+@author("Security Team")
 
 permit(
   principal,
